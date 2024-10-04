@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Downloader</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="./index.css" />
+
+    <div class="container">
+        <div>
+            <div>
+                播放时间段：
+                <input type="text" id="startTime" placeholder="开始时间" value="2-20" /> - <input type="text" id="endTime"
+                    placeholder="结束时间" value="4-10" />
+            </div>
+            <div>
+                播放时间（单位秒）：
+                <input type="number" id="minPlaytime" placeholder="最短时间" value="80" />
+                <input type="number" id="maxPlaytime" placeholder="最长时间" value="100" />
+            </div>
+            <div>
+                播放间隔（单位分钟）：
+                <input type="number" id="minInterval" placeholder="最短时间" value="6" />
+                <input type="number" id="maxInterval" placeholder="最长时间" value="10" />
+            </div>
+        </div>
+        <button class="submit">提交</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
